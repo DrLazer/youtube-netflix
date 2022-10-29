@@ -1,9 +1,28 @@
+@font-face {
+  font-family: "netflix";
+  src: url("/font/NetflixSans-Regular.otf");
+  font-style: normal;
+}
+@font-face {
+  font-family: "netflix-light";
+  src: url("/font/NetflixSans-Light.otf");
+  font-style: light;
+}
+@font-face {
+  font-family: "netflix-medium";
+  src: url("/font/NetflixSans-Bold.otf");
+  font-style: medium;
+}
+@font-face {
+  font-family: "netflix-bold";
+  src: url("/font/NetflixSans-Bold.otf");
+  font-style: bold;
+}
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: 'netflix';
 }
 
 a {
