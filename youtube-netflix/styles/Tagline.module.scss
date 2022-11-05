@@ -1,0 +1,18 @@
+.tagline {
+  background-image: url('/popsign-small.jpg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-color: rgba(0, 0, 0, 0.5);
+  background-blend-mode: multiply;
+  text-align: center;
+
+  &__content {
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 70px;
+
+    &__buttonbar {
+      margin-top: 20px;
+    }
+  }
+}

@@ -1,13 +1,13 @@
 import Image from 'next/image';
-import Header from '../components/Header';
 import Head from '../components/Head';
+import Tagline from '../components/Tagline';
 
 export default function Home() {
   return (
     <div>
       <Head />
       <main >
-        <Header />
+        <Tagline />
       </main>
 
       <footer>
